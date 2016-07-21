@@ -51,25 +51,3 @@ angular.module('myApp', [])
 	}
     
 });
-
-$(document).ready(function(){
-	$('.table').on('click', 'tr', function(){
-		$('.selected').removeClass('selected');
-		$(this).addClass('selected');
-	});
-		
-	$('.dropdown-sex').on('click', 'li', function(){
-		$('#player-sex').val($('a', this).attr('val'));
-	});
-	
-	$('.dropdown-tier').on('click', 'li', function(){
-		$('#player-tier').val($('a', this).attr('val'));
-	});
-
-});
-
-
-
-
-
-
