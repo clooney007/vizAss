@@ -4,21 +4,22 @@
 	    <title>Practial Assessment</title>
 	    <meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- vender js -->
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
 	    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  		
   		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.js"></script>
     	<script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.0.0.js"></script>
   		
-  		
+  		<!-- js & style sheets -->
 	    <script src="js/default.js"></script>
 	    <script src="app/app.module.js"></script>
 	    <link rel="stylesheet" href="css/styles.min.css" />
 	</head>
   	<body>
 		<div id="wrap"  ng-app="myApp"  ng-controller="customersCtrl">
+			<!-- header container -->
 			<header>
 				<div id="logo">
 					<a href="http://www.vizexplorer.com/"><img src="images/Viz-logo.svg" alt="Viz Explorer"></a>
@@ -26,6 +27,8 @@
 				<h2>DataGrid Assignment</h2>
 				<div class="clear"></div>
 			</header>
+			<!-- header container end -->
+			<!-- table container -->
 			<div class="container">
 				<div class="left-side">
 					<button type="button" class="btn btn-default btn-bg" data-toggle="modal" data-target="#addPlayerForm">Add Player</button>
@@ -51,8 +54,8 @@
 					</tbody>
 				</table>
 			</div>
-
-
+			<!-- table container end -->
+			<!-- dialog box container -->
 			<div class="modal fade" id="addPlayerForm" tabindex="-1" role="dialog">
 			  <div class="modal-dialog" role="document">
 			    <div class="modal-content">
@@ -124,7 +127,7 @@
 			    </div>
 			  </div>
 			</div>
-			
+			<!-- dialog box container end -->
 			
 			<footer></footer>
 		</div>
