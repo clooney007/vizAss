@@ -38,6 +38,13 @@ angular.module('myApp', [])
 					Tier: Tier,
 					Email: Email
 			 });
+			 
+			 $('#addPlayerForm').modal('hide');
+			 $('#player-fname').val('');
+			 $('#player-sname').val('');
+			 $('#player-sex').val('');
+			 $('#player-tier').val('');
+			 $('#player-email').val('');
 		 }
 		 
 	 }
